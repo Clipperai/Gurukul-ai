@@ -2,9 +2,10 @@ import streamlit as st
 import time as t
 from brain import ask_ai
 from PyPDF2  import PdfReader 
-# from docx 
 
 st.title("Resume Analyzer AI")
+
+st.set_page_config(page_title='Resume Analyzer AI')
 
 
 def extract_text(file):
@@ -19,7 +20,7 @@ def extract_text(file):
     return ""
 
 
-file = st.file_uploader("Upload your Resume:", type=['pdf', 'docx'])
+file = st.file_uploader("Upload your Resume:", type=['pdf'])
 role = st.selectbox(
     "Select Job Role",
     ['Frontend Dev', 'Backend Dev', 'Full Stack Dev', 'ML Dev', 'Data Analyst', 'AI Engineer', 'Python Dev']
