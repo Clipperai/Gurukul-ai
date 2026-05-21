@@ -39,5 +39,10 @@ suggest resources with priority basis:
         result = ask_ai(prompt)
 
         st.subheader("Your Roadmap:")
+         st.balloons()
         st.write(result)
+
+else:
+
+    st.toast("Goal is not defined!")
 
