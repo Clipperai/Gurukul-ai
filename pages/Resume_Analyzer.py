@@ -36,24 +36,24 @@ if st.button("Submit") and file:
             st.error("Could not read file!")
         else:
             prompt = f"""
-Analyze this resume for a {role} role.
-
-Give:
-1. Summary (bullet points)
-2. Key Skills
-3. Strengths
-4. Missing Skills
-5. Improvements
-6. ATS score out of 100
-7. Required ATS score for this role (1-2 bullet points)
-
-Resume:
-{resume_text}
-"""
+                Analyze this resume for a {role} role.
+                
+                Give:
+                1. Summary (bullet points)
+                2. Key Skills
+                3. Strengths
+                4. Missing Skills
+                5. Improvements
+                6. ATS score out of 100
+                7. Required ATS score for this role (1-2 bullet points)
+                
+                Resume:
+                {resume_text}
+                """
         
-        result = ask_ai(prompt)
-
-        st.subheader("Analysis Result")
-        st.write(result)'
+            result = ask_ai(prompt)
+    
+            st.subheader("Analysis Result")
+            st.write(result)'
 else:
     st.toast("Role is not defined or resume is not uploaded")
