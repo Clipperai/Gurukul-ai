@@ -6,7 +6,7 @@ st.set_page_config(page_title = 'Gurukul AI')
 
 st.title("Gurukul AI - A 24/7 AI Study Companion")
 
-st.heading("Chat with Gurukul AI")
+st.header("Chat with Gurukul AI")
 st.write("Your AI Teaching Guru")
 st.toast("Go to Pages from sidebar")
 
