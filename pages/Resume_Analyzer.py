@@ -54,6 +54,7 @@ if st.button("Submit") and file:
             result = ask_ai(prompt)
     
             st.subheader("Analysis Result")
+            st.balloons()
             st.write(result)
 else:
     st.toast("Role is not defined or resume is not uploaded")
