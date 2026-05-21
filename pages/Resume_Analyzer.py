@@ -56,4 +56,4 @@ Resume:
         st.subheader("Analysis Result")
         st.write(result)'
 else:
-    st.toast("Role is not defined or resume is not uploaded")[
+    st.toast("Role is not defined or resume is not uploaded")
