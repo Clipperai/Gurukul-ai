@@ -8,7 +8,8 @@ st.title("Gurukul AI - A 24/7 AI Study Companion")
 
 st.write("Go to Pages from sidebar")
 
-query = st.chat_input("", placeholder='ask anything...')
+query = st.chat_input("Ask")
+
 ask = st.button('Ask ai')
 
 if query and ask:
