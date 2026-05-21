@@ -83,7 +83,6 @@ Clear CTA → Go to Roadmap Generator (Sidebar)
         st.write(result)
 
 else:
-    st.warning("Goal is not defined or resume is not uploaded")
     st.toast("Goal is not defined or resume is not uploaded")
 
 
