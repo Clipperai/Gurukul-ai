@@ -6,12 +6,13 @@ st.set_page_config(page_title = 'Gurukul AI')
 
 st.title("Gurukul AI - A 24/7 AI Study Companion")
 
-st.toast("Hello, Builde 👋\n How can I help you today?")
-
 st.write("Go to Pages from sidebar")
 st.toast("Go to Pages from sidebar")
 
 st.space("small")
+
+st.toast("How can I help you todaay?")
+st.toast("Hello, Builder!👋")
 
 query = st.chat_input("ask anything")
 
