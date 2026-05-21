@@ -9,6 +9,8 @@ st.title("Gurukul AI - A 24/7 AI Study Companion")
 st.write("Go to Pages from sidebar")
 st.toast("Go to Pages from sidebar")
 
+st.space("small")
+
 query = st.chat_input("ask anything")
 
 if query:
