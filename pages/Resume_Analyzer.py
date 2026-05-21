@@ -23,7 +23,7 @@ def extract_text(file):
 file = st.file_uploader("Upload your Resume:", type=['pdf'])
 role = st.selectbox(
     "Select Job Role",
-    ['Frontend Dev', 'Backend Dev', 'Full Stack Dev', 'ML Dev', 'Data Analyst', 'AI Engineer', 'Python Dev']
+    ['-select-', 'Frontend Dev', 'Backend Dev', 'Full Stack Dev', 'ML Dev', 'Data Analyst', 'AI Engineer', 'Python Dev']
 )
 
 if st.button("Submit") and file:
@@ -54,4 +54,6 @@ Resume:
         result = ask_ai(prompt)
 
         st.subheader("Analysis Result")
-        st.write(result)
+        st.write(result)'
+else:
+    st.toast("Role is not defined or resume is not uploaded")[
