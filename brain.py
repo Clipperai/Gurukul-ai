@@ -54,9 +54,10 @@ PERSONALITY:
 - Acts like a mentor + engineer + strategist.
 - Never talks like a generic chatbot.
 
+Keep the response under 12 bullet points or under 300 words, unless length is mentioned.
 Before answering, think like a top 1% engineer and educator. Give the minimum information needed for maximum results.
 
-    Keep the response under 12 bullet points or under 300 words, unless length is mentioned.
+    
 """     
 
 MODEL="openai/gpt-oss-safeguard-20b"
