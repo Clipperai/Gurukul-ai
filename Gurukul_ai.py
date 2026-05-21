@@ -6,7 +6,7 @@ st.set_page_config(page_title = 'Gurukul AI')
 
 st.title("Gurukul AI - A 24/7 AI Study Companion")
 
-st.toast("Hello, Builde 👋")
+st.toast("Hello, Builde 👋\n How can I help you today?")
 
 st.write("Go to Pages from sidebar")
 st.toast("Go to Pages from sidebar")
