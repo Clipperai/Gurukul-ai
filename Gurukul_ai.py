@@ -10,9 +10,7 @@ st.write("Go to Pages from sidebar")
 
 query = st.chat_input("Ask")
 
-ask = st.button('Ask ai')
-
-if query and ask:
+if query:
     with st.spinner('Analyzing...'):
        result =  ask_ai(query)
        st.write(result)
