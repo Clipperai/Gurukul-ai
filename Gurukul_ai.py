@@ -19,7 +19,8 @@ query = st.chat_input("ask anything")
 
 if query:
     with st.spinner('Analyzing...'):
+       st.write("You: ", chat)
        result =  ask_ai(query)
-       st.write(result)
+       st.write("Gurukul AI: ", result)
 
 
